@@ -99,10 +99,10 @@ print(House.houses_history)
 h3 = House('ЖК Матрёшки', 20)
 print(House.houses_history)
 
-del h2 # Удаление объектов
+del h2  # Удаление объектов
 del h3
-h4=House('ЖК Планета', 30) #Дополнение
-del h4 #Дополнение
-h5=House('ЖК Ёлка', 15) #Дополнение
+h4 = House('ЖК Планета', 30)  # Дополнение
+del h4  # Дополнение
+h5 = House('ЖК Ёлка', 15)  # Дополнение
 
 print(House.houses_history)
